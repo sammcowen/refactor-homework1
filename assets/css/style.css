@@ -12,12 +12,20 @@
 body {
     background-color: #d9dcd6;
 }
-/* Applies background color of
- teal to all elements in the 
- header and font to white with
-  desired fonts and backup fonts
-   and padding */
-.header {
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sets font fize for all paragraphs  */
+p {
+    font-size: 16px;
+}
+
+   /*** HEADER ***/
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -25,16 +33,16 @@ body {
    
 }
 /* Creates big bold text sizing of company name */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /* Changes the letters "seo" to be in grey color to STAND out. clever play on words */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 /* Creates margins and padding for the nav bar items. */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -42,23 +50,15 @@ body {
     font-size: 20px;
 }
 /* makes it so the nav bar options DO NOT HAVE BULLETS */
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 /* makes it so nav bar options are horizontal  */
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* applies font color to the a elements */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-/* sets font fize for all paragraphs  */
-p {
-    font-size: 16px;
-}
+
 /* places the image of team as the hero background image  */
 .hero {
     height: 800px;
@@ -96,25 +96,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* sets the dimensions for three icons in the aside */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+/* sets the dimensions for all  icons in the aside */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Sets spacing , padding and background color to the articles on the middle of page */
-.search-engine-optimization {
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -123,13 +123,13 @@ p {
     color: #ffffff;
 }
 /* images in the articles are all set to same size */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.services img {
     max-height: 200px;
 }
 
 
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
